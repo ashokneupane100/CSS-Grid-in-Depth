@@ -1,5 +1,24 @@
-p{   
-    font-size:64px;
-    color:purple;
-
-}
+body {
+    font-size: 22px;
+  }
+  
+  p {
+    color: purple;
+  }
+  
+  h1, h2, h3 {
+    color: blue;
+  }
+  
+  .gray {
+    color: gray;
+  }
+  
+  #second {
+    font-style: italic;
+  }
+ 
+  p span{
+    text-transform: uppercase;
+    background-color: gold;
+  }
