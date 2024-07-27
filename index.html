@@ -1,51 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS in Depth</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      p {
+        color: limegreen;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+        <h1>Universal Selector</h1>
+        <p>Here in this page; I want to select background color of everything as green and the text color white. it can be done by universal selector.</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Selectors</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+        <h2>Type Selector</h2>
+        <p>A type selector targets all elements of a specific HTML tag. It's written as the element name itself. I want to make all the h1 type tags as blue background color and bold with white text. </p>
 
-<body>
-    <header>
-        <h1>CSS Selectors</h1>
-    </header>
-    <main>
-        <article>
-            <h2>Article 1</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam cumque voluptatum tempore officiis
-                deserunt
-                officia, molestias tenetur tempora. Numquam assumenda eligendi ipsam ut quibusdam ex autem placeat
-                deleniti
-                hic optio?</p>
-        </article>
-        <article>
-            <h2>Article 2</h2>
-            <p id="second" class="gray">Iste, possimus, delectus blanditiis, in dolores voluptatem culpa officia quae
-                eius
-                consequatur
-                suscipit optio
-                cum hic. Architecto ipsum rem accusamus! Quaerat repellendus <span class="highlight">nihil</span>
-                ratione tenetur voluptas
-                veritatis,
-                sunt
-                nesciunt rem.</p>
-        </article>
-        <article>
-            <h2>Article 3</h2>
-            <p class="gray">Iste, possimus, delectus blanditiis, in dolores voluptatem culpa officia quae eius
-                consequatur
-                suscipit optio
-                cum hic. Architecto <span class="highlight">ipsum</span> rem accusamus! Quaerat repellendus nihil
-                ratione tenetur voluptas
-                veritatis,
-                sunt
-                nesciunt rem.</p>
-        </article>
-    </main>
-</body>
+      <h2 class="thirdHeader">Class Selector</h2>
+      <p>Here all h2 tags are selected as bg-color to be pink; but I have specified as the class in the css that this one will be the red</p>
 
+      <h3>Next h3 tag </h3>
+      <p>This next h3 tag has again become with the pink background.</p>
+
+    </article>
+
+    <article>
+        <h1 id="specific">ID Selector</h1>
+        <p id="specific-id">All h1 have green background; but this has black background; because it is specefied specifically.This is an example of an ID selector. </p>
+    </article>
+
+
+
+  </body>
 </html>
